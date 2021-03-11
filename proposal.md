@@ -6,4 +6,6 @@
 * Purpose: While I'm not an avid runner, I do frequently run 5Ks/10Ks/half marathons. I find it fascinating what our bodies can do and how mentally taxing running longer distances can be. For this project it would be interesting to explore competitive running and what factors affect run time. 
 * Data: [ARRS](https://arrs.run/), [World Athletics](https://www.worldathletics.org/records/by-discipline/road-running/marathon/outdoor/men)
 
-## 3. 
+## 3. Predicting Movie Ratings
+* Purpose: What makes a "good" movie? Do certain actors/actresses or directors "signal" a good movie? Do certain movies consistently rate better? This project will explore what affects movie ratings. To predict user rating based on movie information.
+* Data [IMDB](https://www.imdb.com/interfaces/)/ Movie Database (IMDb Alternative) API: consists of many different attributes about movies. For example, movie title, genre, actors/actresses, directors, company, year, etc.
