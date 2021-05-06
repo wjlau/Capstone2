@@ -18,7 +18,7 @@ It is no surprise that carat is highly correlated to price, since we had already
 
 ## Models and Considerations
 The models that I had used were linear regression, random forest, and gradient boosting regressor. With gradient boosting regressor being the best model. 
-Seeing that I had a huge range of values (min: $221, max: $2,702,260 ), and the data being so heavily right skewed, I decided to compare models that predicted the original price vs the log of the price. Additionally, given that carats were so highly correlated with price, I decided to use a linear regression predicting base on carats as a quick baseline model.
+Seeing that I had a huge range of values (min: $221, max: $2,702,260 ), and the data being so heavily right skewed, I decided to compare models that predicted the original price vs the log of the price. Additionally, given that carats were so highly correlated with price, I decided to use a linear regression predicting base on carats as a quick baseline model. </br>
 ![](img/linreg_og_residual.png) </br>
 ![](img/linreg_log_residual.png) </br>
 While taking the log helped a little bit, you can see that there is heteroscedasticity of residuals. Before making amends and rebuilding the model with new predictors. I decided to try the same thing but with a random forest instead first, since random forest tend to perform pretty well out of the box without much tuning to begin with.</br>
