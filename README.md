@@ -32,7 +32,7 @@ After more charts and looking at the gini importance and tweaking my models, the
 Having included all prices, our best RMSE was hovering around 10K, and which 10K is not a lot to those looking to purchase a $3,000,000 ring, it is a lot for those on the other end of the spectrum looking at $200 rings.
 Ultimately, I decided to filter down my data based on price and carat size to try and get a better performance. </br>
 ![](img/diamonds_filtered.png) </br>
-Only considering diamonds <= $500K and <= 9.5 carats. Again using the 4Cs with gradient boosting regressor, we were able to achieve an RMSE of $3,384 and an R2 of 99.5%.
+Only considering diamonds <= $500K and <= 9.5 carats. Again using the 4Cs with gradient boosting regression, we were able to achieve an RMSE of $3,391.
 
 ## Looking Forward
 Predicting diamond prices proved to be very difficult, especially when comparing smaller diamonds with bigger diamonds. Intuitively speaking, depending on the diamond and the consumer, features are valued differently, i.e. for bigger diamonds you may naturally have to compromise on clarity simply because it is harder to find larger diamonds with little to no flaws, and therefore we might value color more. Additionally, not all flaws are equal, with some being "eye clean" and some affecting the structure of the diamond. Given such, I would love to collect more data and look at additional features such as the comments on a lab report (incorporating NLP)
